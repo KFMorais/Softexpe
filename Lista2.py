@@ -37,7 +37,6 @@ for i in range(2, 21, 2):
     print(i, end=' -> ')
 print('Fim')
 
-'''
 #Questão 5
 
 for i in range(5):
@@ -45,6 +44,14 @@ for i in range(5):
     if i == 0 or n > maior:
         maior = n
 
-
 print(maior)
+'''
 
+#Questão 6
+
+n = input('Digite uma palavra: ')
+soma = 0
+for i in n:
+    if i in 'aeiou':
+        soma += 1
+print(soma)
