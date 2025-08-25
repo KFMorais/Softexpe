@@ -20,8 +20,8 @@ while True:
 
 print('Login realizado com sucesso')
 
-'''
 #Questão 3
+
 v = int(input('Digite um valor para fins de cálculo de tabuada: '))
 print()
 cont = 0
@@ -30,3 +30,12 @@ while True:
     cont += 1
     if cont == 11:
         break
+'''
+
+#Questão 4
+
+for i in range(2, 21, 2):
+    print(i, end=' -> ')
+print('Fim')
+
+
