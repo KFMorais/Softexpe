@@ -30,7 +30,6 @@ while True:
     cont += 1
     if cont == 11:
         break
-'''
 
 #Questão 4
 
@@ -38,4 +37,14 @@ for i in range(2, 21, 2):
     print(i, end=' -> ')
 print('Fim')
 
+'''
+#Questão 5
+
+for i in range(5):
+    n = int(input(f'Digite o {i+1} número '))
+    if i == 0 or n > maior:
+        maior = n
+
+
+print(maior)
 
