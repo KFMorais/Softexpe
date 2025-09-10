@@ -419,6 +419,7 @@ else:
 print(f'C) O produto mais barato foi {produto} e custou R$ {menor:.2f}')
 
 '''
+'''
 #Desafio 71
 
 #Estratégia 1
@@ -444,6 +445,7 @@ if temp >= 10:
 if temp >= 1:
     print(f'{temp // 1} nota(s) de R$ 1.00')
     temp = temp%1
+'''
 
 
 '''
@@ -475,7 +477,54 @@ while True:
 
     if temp == 0:
         break
+
+
+n = int(input('digite o primeiro número: '))
+b = int(input('digite o outro número: '))
+
+if n > b:
+    print(n)
+else:
+    print(b)
+
+n = int(input('digite o primeiro número: ')) 
+b = int(input('digite o outro número: ')) 
+
+#c = n
+#n = b 
+#b = c 
+n, b = b, n 
+
+print(n, b)
+
+
+n = int(input('Qual valor do quadrilátero: '))
+
+a = n*n
+print(a)
+
+cores = ('amarelo', 'verde', 'cinza', 'roxo', 'aZUl')
+
+for i in cores:
+    res = False
+    if i.lower() == 'azul':
+        res = True
+
+if res:
+    print('tem azul')
+else:
+    print('NÃO tem azul')
+
+
+
+
+#Função
+def imc(a, p):
+    return p / a**2
+
+#Programa Principal
+res = imc(1.85, 95)
+print(res)
+ 
 '''
-
-
 
